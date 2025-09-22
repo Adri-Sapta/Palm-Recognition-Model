@@ -6,27 +6,18 @@ Proyek ini bertujuan untuk mengidentifikasi seseorang berdasarkan citra telapak 
 -----------------
 📊 Dataset
 Dataset yang digunakan dalam proyek ini adalah Sapienza University Mobile Palmprint Database (SMPD). Dataset ini berisi koleksi citra telapak tangan dari 110 subjek yang diambil menggunakan smartphone dengan berbagai variasi rotasi dan perspektif, sehingga sangat cocok untuk melatih model yang tangguh.
-
 Sumber: Kaggle - SMPD Dataset
 -----------------
 🛠️ Teknologi & Library
 Proyek ini dibangun menggunakan Python dengan beberapa library utama:
-
-TensorFlow & Keras: Untuk membangun dan melatih model Convolutional Neural Network (CNN).
-
-OpenCV: Untuk semua tugas pemrosesan gambar (pra-pemrosesan, deteksi kontur, ekstraksi ROI).
-
-Scikit-learn: Untuk membagi dataset menjadi data latih dan data uji.
-
-Scikit-image: Untuk ekstraksi fitur Local Binary Patterns (LBP).
-
-NumPy: Untuk operasi numerik dan manipulasi array.
-
-Matplotlib: Untuk visualisasi gambar dan plot hasil training.
-
-Jupyter Notebook / Google Colab: Sebagai lingkungan pengembangan interaktif.
-
-Kaggle API: Untuk mengunduh dataset.
+* TensorFlow & Keras: Untuk membangun dan melatih model Convolutional Neural Network (CNN).
+* OpenCV: Untuk semua tugas pemrosesan gambar (pra-pemrosesan, deteksi kontur, ekstraksi ROI).
+* Scikit-learn: Untuk membagi dataset menjadi data latih dan data uji.
+* Scikit-image: Untuk ekstraksi fitur Local Binary Patterns (LBP).
+* NumPy: Untuk operasi numerik dan manipulasi array.
+* Matplotlib: Untuk visualisasi gambar dan plot hasil training.
+* Jupyter Notebook / Google Colab: Sebagai lingkungan pengembangan interaktif.
+* Kaggle API: Untuk mengunduh dataset.
 -----------------
 ⚙️ Alur Kerja (Workflow)
 Proyek ini mengikuti alur kerja sistematis yang dibagi menjadi dua tahap utama: preprocessing dan pemodelan.
